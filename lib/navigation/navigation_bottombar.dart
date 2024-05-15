@@ -1,4 +1,4 @@
-import 'package:concuatui_appclone/home_page/home_page.dart';
+import 'package:concuatui_appclone/pages/home_page/home_page.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 
