@@ -1,4 +1,6 @@
+import 'package:concuatui_appclone/pages/explore_page/explore_page.dart';
 import 'package:concuatui_appclone/pages/home_page/home_page.dart';
+import 'package:concuatui_appclone/pages/search_page/search_page.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 
@@ -13,21 +15,18 @@ class _NavigationBottomBarState extends State<NavigationBottomBar> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle = TextStyle(
       fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black12);
-  static const List<Widget> _widgetOptions = <Widget>[
-    HomePage(),
-    Text(
-      'Index 1: Khám phá',
-      style: optionStyle,
-    ),
-    Text(
+  static final List<Widget> _widgetOptions = <Widget>[
+    const HomePage(),
+    ExplorePage(),
+    const Text(
       'Index 2: Cộng đồng',
       style: optionStyle,
     ),
-    Text(
+    const Text(
       'Index 2: Chuyên gia',
       style: optionStyle,
     ),
-    Text(
+    const Text(
       'Index 2: Cá nhân',
       style: optionStyle,
     ),
@@ -76,7 +75,7 @@ class _NavigationBottomBarState extends State<NavigationBottomBar> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Color(0xFF77B05A),
+        selectedItemColor: const Color(0xFF77B05A),
         onTap: _onItemTapped,
       ),
     );
