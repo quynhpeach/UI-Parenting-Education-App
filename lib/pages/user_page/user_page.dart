@@ -65,12 +65,70 @@ class _UserPageState extends State<UserPage> {
               ),
             ),
             Container(
-                height: 50,
-                child:
-                    Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                  Image.asset('assets/images/google.png',
-                      height: 40, width: 40),
-                ]))
+                width: 300,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(13)),
+                child: Wrap(
+                    alignment: WrapAlignment.center,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    direction: Axis.horizontal,
+                    spacing: 10,
+                    children: [
+                      Image.asset('assets/images/google.png',
+                          height: 30, width: 30),
+                      Text('Đăng nhập bằng Google',
+                          style: TextStyle(
+                              color: Colors.grey.shade500,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold))
+                    ])),
+            const SizedBox(height: 15),
+            Container(
+                width: 300,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                decoration: BoxDecoration(
+                    color: Colors.blueAccent.shade400,
+                    borderRadius: BorderRadius.circular(13)),
+                child: Wrap(
+                    alignment: WrapAlignment.center,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    direction: Axis.horizontal,
+                    spacing: 10,
+                    children: [
+                      Image.asset('assets/images/facebook.png',
+                          height: 30, width: 30),
+                      const Text('Đăng nhập bằng Facebook',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold))
+                    ])),
+            const SizedBox(height: 15),
+            Container(
+                width: 300,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                decoration: BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.circular(13)),
+                child: Wrap(
+                    alignment: WrapAlignment.center,
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    direction: Axis.horizontal,
+                    spacing: 10,
+                    children: [
+                      Image.asset('assets/images/apple.png',
+                          height: 30, width: 30),
+                      const Text('Đăng nhập bằng Apple',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.bold))
+                    ]))
           ],
         ),
       ),
