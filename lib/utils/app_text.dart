@@ -4,17 +4,21 @@ class AppStrings {
   static const String podcastTitle = 'Podcast';
   static const String addChild = 'Thêm con';
   static const String searchHint = 'Search...';
-  static const String podcast1 = '44. Mầm Non: Học hay Chơi';
-  static const String podcast2 = '43. Có Nên Bắt Con Ôm, Hôn Người Khác ?';
-  static const String podcast3 = '42. Trẻ Hay Đánh Người Khác: Cách Xử Trí ?';
+  static const String podcast1 = '3. Podcast 3: The EdTech Podcast';
+  static const String podcast2 = '2. Podcast 2: Teaching in Higher Ed';
+  static const String podcast3 = '1. Podcast 1: The Cult of Pedagogy Podcast';
   static const String titlepc1 =
-      'Chúng ta có cần những cảm xúc tiêu cực hay không?';
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit?';
   static const String headerTitle1 =
-      'Khả năng cảm nhận và phản ứng với cảm xúc thường được coi là điều hiển nhiên, vì vậy mà chúng ta hiếm khi dừng lại để suy nghĩ và chú ý đến những gì ta đang cảm nhận.';
-  static const String titlepc2 = 'Làm gì khi con tuổi teen "cuồng" thần tượng?';
+      'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in';
+  static const String titlepc2 =
+      'Sed ut perspiciatis unde omnis iste natus error sit?';
   static const String headerTitle2 =
-      'Thanh thiếu niên dễ bị ảnh hưởng bởi những người nổi tiếng. Ngày nay, những nền tảng mạng xã hội càng giúp việc theo dõi cuộc sống của các thần tượng nổi tiếng dễ dàng hơn.';
-  static const String titlepc3 = 'Cách trò chuyện với trẻ về cái chết';
+      'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in';
+  static const String titlepc3 =
+      'Sed ut perspiciatis unde omnis iste natus error';
   static const String headerTitle3 =
-      'Cái chết vốn là một sự việc nặng nề và đôi khi đáng sợ, tuy nhiên cha mẹ không nên che giấu hoặc né tránh những câu hỏi của trẻ. Cha mẹ có thể chọn cách nói chuyện phù hợp với con về chủ đề này.';
+      'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth';
+  static const String graph =
+      'Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in. Sed ut perspiciatis unde omnis iste natus error';
 }

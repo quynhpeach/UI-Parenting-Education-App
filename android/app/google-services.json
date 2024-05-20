@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "119873014013",
+    "project_id": "ui-parenting-app",
+    "storage_bucket": "ui-parenting-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119873014013:android:3af82b5790fa24a29c5694",
+        "android_client_info": {
+          "package_name": "com.example.concuatui_appclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119873014013-5l7bvpeg9m8pte8aehtdbq141fv6dj1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGxwZRISljFnhgcumZVl342SI7ULTUqxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119873014013-5l7bvpeg9m8pte8aehtdbq141fv6dj1c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119873014013-ak5u99893dqjl5f877dsjta584o36rrl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.concuatuiAppclone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

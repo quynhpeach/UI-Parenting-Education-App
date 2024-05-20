@@ -1,8 +1,12 @@
+import 'package:concuatui_appclone/firebase_options.dart';
 import 'package:concuatui_appclone/navigation/config_router.dart';
 import 'package:concuatui_appclone/navigation/navigation_bottombar.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 

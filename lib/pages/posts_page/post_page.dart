@@ -3,9 +3,9 @@ import 'package:concuatui_appclone/utils/app_text.dart';
 
 class HorizontalListViewPosts extends StatelessWidget {
   final List<Map<String, String>> data = [
-    {'title': AppStrings.titlepc1, 'image': 'stressful.png'},
-    {'title': AppStrings.titlepc2, 'image': 'cuongidol.png'},
-    {'title': AppStrings.titlepc3, 'image': 'deathtelling.png'},
+    {'title': AppStrings.titlepc1, 'image': 'stress.jpg'},
+    {'title': AppStrings.titlepc2, 'image': 'idol.jpg'},
+    {'title': AppStrings.titlepc3, 'image': 'telling.jpg'},
   ];
 
   HorizontalListViewPosts({super.key});
@@ -82,16 +82,19 @@ class HorizontalScrollForYouWidget extends StatelessWidget {
   HorizontalScrollForYouWidget({super.key});
   final List<Map<String, String>> data = [
     {
-      'title': 'Mối nguy hiểm khi cha mẹ sử dụng hành vi thao túng c...',
-      'imagePath': 'assets/images/post1.png'
+      'title':
+          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo...',
+      'imagePath': 'assets/images/teaching.jpg'
     },
     {
-      'title': '4 lỗi sai khi dạy con mà phụ huynh thường mắc phải',
-      'imagePath': 'assets/images/post2.png'
+      'title':
+          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo',
+      'imagePath': 'assets/images/talk.jpg'
     },
     {
-      'title': 'Lúc nắng lúc mưa: Cách tiếp cận con hiệu quả hơn',
-      'imagePath': 'assets/images/post3.png'
+      'title':
+          'LLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo',
+      'imagePath': 'assets/images/mad.jpg'
     },
   ];
 

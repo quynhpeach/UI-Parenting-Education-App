@@ -1,3 +1,4 @@
+import 'package:concuatui_appclone/pages/expert_page/expert_page.dart';
 import 'package:concuatui_appclone/pages/explore_page/explore_page.dart';
 import 'package:concuatui_appclone/pages/home_page/home_page.dart';
 import 'package:concuatui_appclone/pages/search_page/search_page.dart';
@@ -23,10 +24,7 @@ class _NavigationBottomBarState extends State<NavigationBottomBar> {
       'Index 2: Cộng đồng',
       style: optionStyle,
     ),
-    const Text(
-      'Index 2: Chuyên gia',
-      style: optionStyle,
-    ),
+    const ExpertPage(),
     const UserPage()
   ];
 
